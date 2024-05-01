@@ -4,18 +4,18 @@ export const diseases = [
     slug: 'bacterial_spot',
     name: 'Bacterial Spot',
     symptoms:
-      'Bintik-bintik basah air berwarna coklat tua muncul di daun. Kemudian bintik-bintik ini menjadi kehitaman, dan akhirnya jaringan yang terkena rontok meninggalkan lubang di daun. Bintik-bintik hitam timbul yang kemudian menjadi bintik bintik seperti keropeng muncul bersamaan pada buah.',
-    cause: 'Bakteri Xanthomonas Perforans',
+      'Brownish dark water soaked spots appear on leaves. Then these spots turn black, and eventually the affected tissue falls off leaving holes in the leaves. Black spots emerge which then become scab-like spots appearing simultaneously on the fruit.',
+    cause: 'Bacteria Xanthomonas Perforans',
     prevention: [
-      'Hanya gunakan benih dan tanaman bersertifikat bebas penyakit',
-      'Hindari area yang ditanami paprika atau tomat selama setahun sebelumnya',
-      'Hindari penyiraman di atas tanaman dengan menggunakan air irigasi',
-      'Pangkas tanaman untuk meningkatkan sirkulasi udara',
-      'Lakukan sanitasi yang baik seperti membajak jerami',
-      'Lakukan pengendalian gulma',
+      'Only use certified disease-free seeds and plants',
+      'Avoid areas planted with peppers or tomatoes for the previous year',
+      'Avoid overhead irrigation',
+      'Prune plants to improve air circulation',
+      'Practice good sanitation such as plowing straw',
+      'Control weeds',
     ],
     treatment: [
-      'Penyemprotan dengan fungisida tembaga akan memberikan kontrol penyakit bakteri yang cukup baik',
+      'Spraying with copper fungicide will provide fairly good control of bacterial diseases',
     ],
     ref: [
       {
@@ -33,20 +33,20 @@ export const diseases = [
     slug: 'early_blight',
     name: 'Early Blight',
     symptoms:
-      'Bercak besar tidak beraturan berwarna hitam, kematian jaringan yang dikelilingi oleh area kuning yang lebih besar. Bintik-bintik daun memiliki penampilan pita konsentris yang khas (cangkang tiram atau mata banteng).',
-    cause: 'Jamur Alternaria Linariae (A. solani)',
+      'Irregular large black spots, tissue death surrounded by larger yellow areas. Leaf spots have a characteristic concentric band appearance (oyster shell or bullseye).',
+    cause: 'Fungus Alternaria Linariae (A. solani)',
     prevention: [
-      'Gunakan kultivar tomat yang tahan atau toleran',
-      'Gunakan benih bebas patogen',
-      'Jangan menanam tanaman sakit di lapangan',
-      'Gunakan rotasi tanaman, basmi gulma tanaman tomat',
-      'Pupuk tanaman dengan benar',
-      'Jangan basahi dedaunan tomat dengan air irigasi',
-      'Uji tanah kebun setiap tahun dan pertahankan tingkat potasium yang cukup',
+      'Use tomato cultivars that are resistant or tolerant',
+      'Use pathogen-free seeds',
+      'Do not plant sick plants in the field',
+      'Use crop rotation, control tomato plant weeds',
+      'Fertilize plants properly',
+      'Do not wet tomato leaves with irrigation water',
+      'Test garden soil annually and maintain sufficient potassium levels',
     ],
     treatment: [
-      'Penyemprotan dengan fungisida chlorothalonil, mancozeb, atau fungisida copper dapat mengendalikan penyakit ini',
-      'Pangkas dan buang cabang dan daun bagian bawah yang terinfeksi.',
+      'Spraying with chlorothalonil, mancozeb, or copper fungicides can control this disease',
+      'Prune and remove infected branches and lower leaves.',
     ],
     ref: [
       {
@@ -64,18 +64,18 @@ export const diseases = [
     slug: 'late_blight',
     name: 'Late Blight',
     symptoms:
-      'Pada area daun sebagian besar tampak basah kuyup, yang akhirnya berubah menjadi coklat dan tipis. Pada buah juga nampak bercak besar berwarna coklat kehijauan yang tidak beraturan dengan penampilan kasar berminyak. Pada batang terlihat tidak beraturan berwarna hijau hingga hitam',
+      'Mostly wet-looking areas appear on the leaves, which eventually turn brown and thin. Large irregular greenish-brown spots also appear on the fruit with a rough oily appearance. The stem appears irregularly green to black',
     cause: 'Pathogen Phytophthora Infestans',
     prevention: [
-      'Jaga agar dedaunan tetap kering. tempatkan tanaman di tempat yang akan menerima sinar matahari pagi',
-      'Berikan ruang ekstra di antara tanaman, dan hindari penyiraman di atas tanaman, terutama di sore hari',
-      'Beli benih dan tanaman bersertifikat bebas penyakit',
-      'Lakukan penanganan gulma',
-      'Jangan membuat kompos busuk',
+      'Keep the leaves dry. Place plants in a location that will receive morning sunlight',
+      'Provide extra space between plants, and avoid overhead irrigation, especially in the evening',
+      'Buy disease-free certified seeds and plants',
+      'Handle weeds',
+      'Do not make rotten compost',
     ],
     treatment: [
-      'Penyemprotan dengan fungisida chlorothalonil, mancozeb, atau fungisida copper dapat mengendalikan penyakit ini',
-      'Pangkas dan buang cabang dan daun bagian bawah yang terinfeksi',
+      'Spraying with chlorothalonil, mancozeb, or copper fungicides can control this disease',
+      'Prune and remove infected branches and lower leaves',
     ],
     ref: [
       {
@@ -93,18 +93,18 @@ export const diseases = [
     slug: 'leaf_mold',
     name: 'Leaf Mold',
     symptoms:
-      'Muncul sebagai bercak hijau muda di permukaan atas daun yang lebih tua. Di bawah daun di area ini, terlihat bercak keunguan atau hijau zaitun dari pertumbuhan jamur. Daun yang terinfeksi menguning dan menggugurkan tanaman.',
-    cause: 'Jamur Passalora Fulva',
+      'Appears as light green spots on the upper surface of older leaves. Under the leaves in this area, purple or olive green spots of fungal growth are visible. Infected leaves turn yellow and drop off the plant.',
+    cause: 'Fungus Passalora Fulva',
     prevention: [
-      'Tanaman sisa / lama harus dibuang dari lapangan',
-      'Mengecek dan memangkas tanaman untuk meningkatkan sirkulasi udara membantu mengendalikan penyakit',
-      'Tempatkan tanaman tomat lebih jauh untuk sirkulasi udara yang lebih baik antar tanaman',
-      'Hindari membasahi daun saat menyiram',
-      'Putar dengan sayuran selain tomat',
+      'Remnants / old plants should be removed from the field',
+      'Checking and pruning plants to improve air circulation helps control the disease',
+      'Place tomato plants further apart for better air circulation between plants',
+      'Avoid wetting leaves when watering',
+      'Rotate with vegetables other than tomatoes',
     ],
     treatment: [
-      'Penyemprotan dengan fungisida chlorothalonil, mancozeb, atau fungisida copper dapat mengendalikan penyakit ini',
-      'Pangkas dan buang cabang dan daun bagian bawah yang terinfeksi',
+      'Spraying with chlorothalonil, mancozeb, or copper fungicides can control this disease',
+      'Prune and remove infected branches and lower leaves',
     ],
     ref: [
       {
@@ -122,16 +122,16 @@ export const diseases = [
     slug: 'septoria_leaf_spot',
     name: 'Septoria Leaf Spot',
     symptoms:
-      'Lesi melingkar seperti basah air terjadi pertama kali pada daun yang lebih tua. Bintik-bintik ini kemudian berubah menjadi coklat dengan bagian tengah berwarna abu-abu dan mati, dan jika infeksi cukup parah, seluruh daun akan mati',
-    cause: 'Jamur Septoria Lycopersici',
+      'Circular lesions like water-soaked occur first on older leaves. These spots then turn brown with gray centers and die, and if the infection is severe enough, the entire leaf will die',
+    cause: 'Fungus Septoria Lycopersici',
     prevention: [
-      'Jangan menanam tomat kultivar karena sebagian besar tomat kultivar  yang ditanam saat ini rentan terhadap bercak daun Septoria',
-      'Rotasi / putar tanaman 3 tahun dan sanitasi (pembuangan sisa-sisa tanaman)',
-      'Jangan gunakan irigasi overhead',
+      'Do not plant tomato cultivars because most tomato cultivars currently planted are susceptible to Septoria leaf spot',
+      'Rotate / rotate plants for 3 years and sanitation (removal of plant residues)',
+      'Do not use overhead irrigation',
     ],
     treatment: [
-      'Penyemprotan dengan fungisida chlorothalonil, mancozeb, atau fungisida copper dapat mengendalikan penyakit ini',
-      'Pangkas dan buang cabang dan daun bagian bawah yang terinfeksi',
+      'Spraying with chlorothalonil, mancozeb, or copper fungicides can control this disease',
+      'Prune and remove infected branches and lower leaves',
     ],
     ref: [
       {
@@ -149,17 +149,17 @@ export const diseases = [
     slug: 'spider_mites/two_spotted_spider_mite',
     name: 'Spider Mites / Two-Spotted Spider Mite',
     symptoms:
-      'Daun menjadi putih kekuningan dan berbintik-bintik. Ditemukan tungau laba-laba merah tomat dapat ditemukan di kedua sisi daun tetapi lebih menyukai bagian bawah dekat urat daun. Terdapat jaring kecil seperti anyaman terutama di bagian bawah daun.',
+      'Leaves turn whitish-yellow and spotted. Red spider mites can be found on both sides of the leaves but prefer the lower part near the leaf veins. There are small web-like weaves especially on the underside of the leaves.',
     cause: 'Tetranychus evansi',
     prevention: [
-      'Menjaga kebersihan lahan dengan baik',
-      'Membersihkan gulma secara berkala',
-      'Pantau tanaman Anda secara teratur',
-      'Menyimpan catatan terkait datangnya penyakit untuk menjadi bahan persiapan selanjutnya kedepan',
+      'Maintain good land cleanliness',
+      'Clean weeds periodically',
+      'Regularly monitor your plants',
+      'Keep records related to the arrival of diseases for future preparation materials',
     ],
     treatment: [
-      'Merawat, membuang atau mengkarantina tanaman yang terserang untuk mencegah penyebaran',
-      'Masih belum terdapat mitisida untuk melawan hama ini',
+      'Caring for, removing or quarantining affected plants to prevent spread',
+      'There is still no miticide to fight this pest',
     ],
     ref: [
       {
@@ -173,21 +173,21 @@ export const diseases = [
     slug: 'target_spot',
     name: 'Target Spot',
     symptoms:
-      'Gejala awal pada daun adalah bercak-bercak kecil yang basah oleh air pada permukaan daun bagian atas. Bintik-bintik berkembang menjadi lesi nekrotik kecil yang memiliki bagian tengah berwarna coklat muda dan tepian gelap',
+      'The initial symptoms on leaves are small water-soaked spots on the upper leaf surface. The spots develop into small necrotic lesions with light brown centers and dark edges',
     cause: 'Pathogen Corynespora Cassiicola',
     prevention: [
-      'Meningkatkan aliran udara melalui kanopi dengan jarak tanam yang lebih lebar',
-      'Menghindari pemupukan berlebihan dengan nitrogen, yang dapat menyebabkan pembentukan kanopi yang terlalu rimbun. Pemangkasan anakan dan daun tua di kanopi bawah juga dapat meningkatkan aliran udara dan mengurangi kebasahan daun',
-      'Hindari menanam tomat di dekat tanaman tua',
-      'Periksa bibit untuk mengetahui gejala titik target sebelum dipindahkan',
-      'Kelola gulma, yang dapat berfungsi sebagai inang alternatif',
-      'Hindari penggunaan irigasi di atas kepala',
-      'Hancurkan sisa tanaman segera setelah panen terakhir',
-      'Pindahkan dari tomat dan inang lain yang diketahui selama setidaknya tiga tahun',
+      'Increase air flow through the canopy with wider plant spacing',
+      'Avoid excessive nitrogen fertilization, which can cause overly dense canopy formation. Pruning sucker and old leaves in the lower canopy can also increase air flow and reduce leaf wetness',
+      'Avoid planting tomatoes near old plants',
+      'Check seedlings for target spot symptoms before transplanting',
+      'Manage weeds, which can serve as alternative hosts',
+      'Avoid the use of overhead irrigation',
+      'Destroy plant residues immediately after the last harvest',
+      'Move away from tomatoes and other known hosts for at least three years',
     ],
     treatment: [
-      'Penyemprotan dengan fungisida chlorothalonil, mancozeb, atau fungisida copper dapat mengendalikan penyakit ini',
-      'Pangkas dan buang cabang dan daun bagian bawah yang terinfeksi.',
+      'Spraying with chlorothalonil, mancozeb, or copper fungicides can control this disease',
+      'Prune and remove infected branches and lower leaves',
     ],
     ref: [
       {
@@ -201,16 +201,16 @@ export const diseases = [
     slug: 'yellow_leaf_curl_virus',
     name: 'Tomato Yellow Leaf Curl Virus',
     symptoms:
-      'Daun melengkung ke atas, tepi daun kuning (klorosis), daun lebih kecil dari biasanya, tanaman kerdil, dan bunga rontok. Jika tanaman tomat terinfeksi di awal pertumbuhannya, mungkin tidak ada buah yang terbentuk. Tanaman yang terinfeksi dapat muncul secara acak di seluruh taman',
-    cause: 'Lalat putih',
+      'Leaves curl upward, leaf edges yellow (chlorosis), leaves smaller than usual, dwarf plants, and dropped flowers. If tomato plants are infected in their early growth, there may be no fruit formed. Infected plants can randomly appear throughout the garden',
+    cause: 'Whitefly',
     prevention: [
-      'Penghapusan tanaman dengan gejala awal dapat memperlambat penyebaran penyakit',
-      'Tanaman terinfeksi yang dicabut (dicabut) harus segera dikantongi untuk mencegah penyebaran',
-      'Kendalikan gulma di dalam dan di sekitar lokasi kebun, karena ini mungkin menjadi inang alternatif bagi lalat putih',
+      'Removing plants with early symptoms can slow the spread of the disease',
+      'Infected plants that are pulled out should be bagged immediately to prevent spread',
+      'Control weeds inside and around garden sites, as these may be alternative hosts for whiteflies',
     ],
     treatment: [
-      'Membuat semprotan minyak hortikultura atau minyak canola konsentrasi rendah akan bertindak sebagai penolak hama',
-      'Di akhir musim, singkirkan semua tanaman yang rentan dan bakar atau buang',
+      'Making a horticultural oil spray or low-concentration canola oil will act as a repellent',
+      'At the end of the season, remove all vulnerable plants and burn or dispose of them',
     ],
     ref: [
       {
@@ -228,18 +228,18 @@ export const diseases = [
     slug: 'mosaic_virus',
     name: 'Tomato Mosaic Virus',
     symptoms:
-      'Tanaman yang terinfeksi virus menjadi kerdil, seringkali dengan daun yang tidak berkembang dengan baik. Tanaman tampak lebat. Daun mungkin berbintik-bintik, dan seringkali memiliki penampilan "tali sepatu". Buahnya kecil dan bentuknya salah.',
-    cause: 'Virus Tobacco Mosaic',
+      'Virus-infected plants become dwarfed, often with poorly developed leaves. The plants look bushy. Leaves may be spotted, and often have a "shoestring" appearance. The fruits are small and misshapen.',
+    cause: 'Tobacco Mosaic Virus',
     prevention: [
-      'Hapus dan musnahkan tanaman yang terinfeksi segera',
-      'Cuci tangan sampai bersih setelah merokok (virus mosaik Tembakau mungkin ada pada jenis tembakau tertentu) dan sebelum bekerja di kebun',
-      'Hilangkan gulma dan singkirkan tanaman yang terinfeksi dari lahan segera setelah terlihat',
-      'Kendalikan serangga (thrips dan lalat putih) yang membawa virus (lihat HGIC 2218, Hama Serangga Tomat)',
+      'Remove and destroy infected plants immediately',
+      'Wash hands thoroughly after smoking (Tobacco Mosaic Virus may be present on certain tobacco types) and before working in the garden',
+      'Eliminate weeds and remove infected plants from the field as soon as they are seen',
+      'Control insects (thrips and whiteflies) that carry the virus (see HGIC 2218, Tomato Insect Pests)',
     ],
     treatment: [
-      'Gunakan mulsa reflektif',
-      'Gunakan kultivar tomat yang tahan virus',
-      'Banyak kultivar memiliki ketahanan Tobacco mosaic virus (TMV) (huruf T mengikuti nama kultivar), seperti Bush Celebrity, Bush Early Girl, Jetsetter, Big Beef, Celebrity, Sweet Cluster, Sweet Million (cherry), dan Super Marzano (paste )',
+      'Use reflective mulch',
+      'Use tomato cultivars resistant to the virus',
+      'Many cultivars have resistance to Tobacco mosaic virus (TMV) (letter T following the cultivar name), such as Bush Celebrity, Bush Early Girl, Jetsetter, Big Beef, Celebrity, Sweet Cluster, Sweet Million (cherry), and Super Marzano (paste)',
     ],
     ref: [
       {
@@ -256,10 +256,10 @@ export const diseases = [
     id: 9,
     slug: 'healthy',
     name: 'Healthy',
-    symptoms: 'Tanaman tampak sehat dan tidak ada penyakit apapun',
-    cause: 'Petani yang rajin membersihkan dan merawat tanaman',
-    prevention: ['Lebih baik terus dilakukan kebiasaan tersebut'],
-    treatment: ['Tidak ada penanganan yang harus dilakukan'],
+    symptoms: 'Plants look healthy and have no diseases',
+    cause: 'Diligent farmers cleaning and caring for plants',
+    prevention: ['Continuing these habits is better'],
+    treatment: ['No treatment is necessary'],
     ref: [
       {
         name_ref: '',
