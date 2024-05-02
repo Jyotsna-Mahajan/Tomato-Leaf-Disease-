@@ -7,7 +7,7 @@ export const Home = () => {
       <Container>
         <div className="d-flex">
           <div className="wrap-text">
-            <span className="tagline">Dectma</span>
+            <span className="tagline">Aakarsh's Project</span>
             <h1>Realtime Image Classification and Recognition with Roboflow</h1>
             <a href="/classify" className="btn-success btn">
               Detect My Plant
