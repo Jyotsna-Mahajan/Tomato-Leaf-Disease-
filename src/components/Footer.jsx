@@ -6,7 +6,7 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} sm={6}>
-            <span className="tagline">Dectma</span>
+            <span className="tagline">Tomato Disease Finder</span>
           </Col>
           <Col size={12} sm={6} className="text-sm-end text-center">
             <div className="social-icon">
@@ -14,7 +14,7 @@ export const Footer = () => {
                 <i className="ri-github-fill"></i>
               </a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Copyright 2024. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
