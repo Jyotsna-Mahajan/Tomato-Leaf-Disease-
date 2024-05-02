@@ -36,22 +36,19 @@ export const Features = () => {
               >
                 <div className="item">
                   <img src={meter1} alt="feature_1" />
-                  <h5>Deteksi Penyakit tomat menggunakan gambar daun</h5>
+                  <h5>Detecting Tomato Diseases Using Leaf Images</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="feature_2" />
-                  <h5>Klasifikasi penyakit pada tomat</h5>
+                  <h5>Classification of Diseases in Tomatoes</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="feature_3" />
-                  <h5>Penjelasan terkait penyakit</h5>
+                  <h5>Explanation of Related Diseases</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="feature_4" />
-                  <h5>
-                    Merekomendasikan pengobatan yang tepat untuk mengatasi
-                    penyakit
-                  </h5>
+                  <h5>Recommendation of Appropriate Treatment for Disease Management</h5>
                 </div>
               </Carousel>
             </div>
