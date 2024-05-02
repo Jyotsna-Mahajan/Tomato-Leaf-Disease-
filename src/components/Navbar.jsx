@@ -3,7 +3,7 @@ export const Navbar = () => {
     <div>
       <div className="navbar bg-red-500">
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl">Dectma</a>
+          <a className="btn btn-ghost normal-case text-xl">Aakarsh Taneja</a>
         </div>
         <div className="flex-none">
           <button className="btn btn-square btn-ghost">
