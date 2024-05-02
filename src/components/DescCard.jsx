@@ -53,13 +53,13 @@ export const DescCard = ({ progressState, result }) => {
           </h2>
           <div key="1">
             <h2 className="card-title">
-              {progressState === 'finish' ? '🦠 Penyebab' : ''}
+              {progressState === 'finish' ? '🦠 Cause' : ''}
             </h2>
             <p>{progressState === 'finish' ? diseases[result[0]].cause : ''}</p>
           </div>
           <div key="2">
             <h2 className="card-title">
-              {progressState === 'finish' ? '⁉ Gejala' : ''}
+              {progressState === 'finish' ? '⁉ Symptoms' : ''}
             </h2>
             <p>
               {progressState === 'finish' ? diseases[result[0]].symptoms : ''}
@@ -67,7 +67,7 @@ export const DescCard = ({ progressState, result }) => {
           </div>
           <div key="3">
             <h2 className="card-title">
-              {progressState === 'finish' ? '🛡 Pencegahan' : ''}
+              {progressState === 'finish' ? '🛡 Prevention' : ''}
             </h2>
             {progressState === 'finish'
               ? diseases[result[0]].prevention.map((a, i) => {
@@ -83,7 +83,7 @@ export const DescCard = ({ progressState, result }) => {
           </div>
           <div key="4">
             <h2 className="card-title">
-              {progressState === 'finish' ? '💊 Penanganan' : ''}
+              {progressState === 'finish' ? '💊 Treatment' : ''}
             </h2>
             {progressState === 'finish'
               ? diseases[result[0]].treatment.map((a, i) => {
@@ -99,7 +99,7 @@ export const DescCard = ({ progressState, result }) => {
           </div>
           <div key="5">
             <h2 className="card-title">
-              {progressState === 'finish' ? '📄 Referensi' : ''}
+              {progressState === 'finish' ? '📄 References' : ''}
             </h2>
             {progressState === 'finish'
               ? diseases[result[0]].ref.map((a, i) => {
