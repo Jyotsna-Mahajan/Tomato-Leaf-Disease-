@@ -28,7 +28,7 @@ export const Navigation = () => {
     <Router>
       <Navbar expand="lg" className={scrolled ? 'scrolled' : ''}>
         <Container>
-          <Navbar.Brand href="#Home">Dectma</Navbar.Brand>
+          <Navbar.Brand href="#Home">Tomato Leaf Disease </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
