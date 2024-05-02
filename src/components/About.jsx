@@ -2,10 +2,7 @@ import { Container } from 'react-bootstrap';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import daun from "../assets/daun1.png";
-import user1 from "../assets/inoyy.jpeg";
-import user2 from "../assets/galan.jpg";
-import user3 from "../assets/fakhrul.jpg";
-import user4 from "../assets/ammar.jpeg";
+import user1 from "../assets/aakarsh.jpeg";
 
 export const About = () => {
   const responsive = {
@@ -37,15 +34,7 @@ export const About = () => {
           <div className="wrap-text">
             <h2 className="tag">About</h2>
             <p>
-              Tomat merupakan salah satu tanaman hortikultura yang banyak
-              ditemukan di Indonesia. Tomat terkenal sebagai tanaman yang rentan
-              terhadap penyakit. Penyakit ini dapat dikenali dengan melihat
-              perubahan fisik pada tanaman seperti daun. Jika sudah terjangkit
-              penyakit tersebut, perlu adanya penanganan yang tepat agar tidak
-              terjadi gagal panen. <br /> Untuk itu dibuatlah proyek ini untuk
-              mengklasifikasikan penyakit pada tomat berdasarkan gambar daun
-              beserta deskripsi dan pengobatan penyakit tersebut menggunakan
-              machine learning. Proyek ini disebut Dectma.
+             Tomato is one of the horticultural plants that are commonly found in India. Tomatoes are known as plants that are susceptible to diseases. This disease can be recognized by observing physical changes in the plant such as leaves. If the plant is already infected with the disease, proper handling is needed to prevent crop failure. Therefore, this project is created to classify diseases in tomatoes based on leaf images along with descriptions and treatments of the diseases using machine learning. This project is called Dectma.
             </p>
           </div>
         </div>
@@ -59,20 +48,8 @@ export const About = () => {
               className="owl-carousel owl-theme about-slider"
             >
               <div className="item">
-                <img src={user1} alt="Sutrisno" />
-                <h5>Sutrisno</h5>
-              </div>
-              <div className="item">
-                <img src={user4} alt="Muhammad Ammar Nabil" />
-                <h5>Muhammad Ammar Nabil</h5>
-              </div>
-              <div className="item">
-                <img src={user3} alt="Muhammad Fakhrul Amin" />
-                <h5>Muhammad Fakhrul Amin</h5>
-              </div>
-              <div className="item">
-                <img src={user2} alt="Galan Ahmad Defanka" />
-                <h5>Galan Ahmad Defanka </h5>
+                <img src={user1} alt="Aakarsh" />
+                <h5>Aakarsh Taneja</h5>
               </div>
             </Carousel>
           </div>
